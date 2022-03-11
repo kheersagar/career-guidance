@@ -1,0 +1,21 @@
+.nav_item{
+  padding-right: 4rem !important;
+  font-family: 'Quantico';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #14397D !important;
+}
+.nav_item_last{
+  font-family: 'Quantico';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: #14397D !important;
+}
+.nav_item:hover , .nav_item_last:hover{
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}

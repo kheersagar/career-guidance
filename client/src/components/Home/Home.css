@@ -1,0 +1,47 @@
+.home_main{
+  height: 100vh;
+  /* background-image: url("https://nystudio107-ems2qegf7x6qiqq.netdna-ssl.com/img/blog/_1200x675_crop_center-center_82_line/image_optimzation.jpg"); */
+  background: linear-gradient(360deg, rgba(23, 106, 154, 0.64) 0%, rgba(130, 166, 187, 0) 131.29%) !important;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.home_section{
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100%;
+  overflow: hidden;
+
+}
+.home_text_section{
+  height: 100%;
+  padding-top: 1rem;
+  padding-left: 4rem;
+}
+.home_main_p{
+  max-width: 80%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #343232;
+}
+.home_img_section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home_image{
+  height: 100%;
+}
+.home_search{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  position: absolute;
+  bottom:0;
+  right: 0;
+}
