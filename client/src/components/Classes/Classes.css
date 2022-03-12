@@ -1,0 +1,54 @@
+.classes_main{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+
+}
+.classes_main_section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.class_card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 150px;
+  background: rgba(196, 196, 196, 0.45);
+  border-radius: 28px;
+  cursor: pointer;
+}
+.card_class_no{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  padding: 1rem;
+  text-align: center;
+  color:white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #14397D;
+  margin-bottom: 0.2rem;
+  box-sizing: border-box;
+}
+.card_class_name{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 22px;
+  color: #000000;
+  margin-top: 0.5rem;
+}
+.class_card:hover {
+  background-color: #14397D;
+}
+.class_card:hover .card_class_no{
+  background-color: white;
+  color: black;
+}
+.class_card:hover .card_class_name{
+  color: white;
+}

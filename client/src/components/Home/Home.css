@@ -45,3 +45,18 @@
   bottom:0;
   right: 0;
 }
+.home_content{
+  padding: 0 2rem 0 2rem;
+}
+.college_card_section{
+  margin-top: 2rem;
+}
+.college_section_text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #000000;
+  text-align: center;
+}
