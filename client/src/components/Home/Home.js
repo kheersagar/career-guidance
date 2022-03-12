@@ -8,8 +8,10 @@ import "./Home.css";
 //image
 import homeImage from "../../Image/home_main.png";
 import rectange from "../../Image/Rectangle.png";
+//
 import Classes from "../Classes/Classes";
 import CollegeCard from "../CollegeCard/CollegeCard";
+import FieldCard from "../Field/FieldCard";
 
 function Home() {
 
@@ -28,6 +30,33 @@ function Home() {
     },
     {
       value:5
+    },
+  ]
+  const field_data = [
+    {
+      id:1,
+      field_name:'Science',
+      image: require( "../../Image/science.png")
+    },
+    {
+      id:2,
+      field_name:'Medical',
+      image: require("../../Image/medical.png")
+    },
+    {
+      id:3,
+      field_name:'Commerce',
+      image: require("../../Image/commerce.png")
+    },
+    {
+      id:4,
+      field_name:'Arts',
+      image: require("../../Image/arts.png")
+    },
+    {
+      id:5,
+      field_name:'Engineering',
+      image: require("../../Image/engineering.png")
     },
   ]
   return (
@@ -56,6 +85,7 @@ function Home() {
       </div>
       <div className="home_content">
         <Classes />
+        {/* college details section */}
       <div className="college_card_section">
         <div className="college_section_text">Top Ranked Colleges in India</div>
         <div>
@@ -64,6 +94,15 @@ function Home() {
             <CollegeCard count={item.value}/>
           )
         })}
+        </div>
+      </div>
+      {/* fields card section */}
+      <div className="choose_field_section">
+        <div className="field_text">Choose Your Field</div>
+        <div style={{display:'flex',justifyContent:'space-evenly'}}>
+        {field_data.map((item)=>{
+           return <FieldCard key={item.id} field_name={item.field_name} image={item.image}/>
+         })}
         </div>
       </div>
       </div>

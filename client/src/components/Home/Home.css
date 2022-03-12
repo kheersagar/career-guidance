@@ -60,3 +60,14 @@
   color: #000000;
   text-align: center;
 }
+.choose_field_section{
+  margin: 1rem 0;
+}
+.field_text{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #000000;
+}
