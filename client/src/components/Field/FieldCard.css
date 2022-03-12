@@ -1,0 +1,24 @@
+.field_card_main{
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+}
+.field_image{
+ transition: all 1s;
+}
+.field_image:hover{
+  transform: scale(1.5);
+}
+.field_card_rec{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.field_card_rec_text{
+  position: absolute;
+  left: 30%;
+  bottom: 10%;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
