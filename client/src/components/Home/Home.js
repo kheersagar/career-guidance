@@ -12,6 +12,7 @@ import rectange from "../../Image/Rectangle.png";
 import Classes from "../Classes/Classes";
 import CollegeCard from "../CollegeCard/CollegeCard";
 import FieldCard from "../Field/FieldCard";
+import Newsletter from "../Newsletter/Newsletter";
 
 function Home() {
 
@@ -104,6 +105,10 @@ function Home() {
            return <FieldCard key={item.id} field_name={item.field_name} image={item.image}/>
          })}
         </div>
+      </div>
+      {/* Newsletter */}
+      <div className="newsletter_section">
+         <Newsletter />
       </div>
       </div>
     </>
