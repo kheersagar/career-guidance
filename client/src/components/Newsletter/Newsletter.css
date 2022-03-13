@@ -1,0 +1,86 @@
+.newsletter_main{
+  background-color: #D9EBF5;
+}
+.news_title{
+  text-align: center;
+}
+.news_text1{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 72px;
+  color: #000000;
+}
+.news_text2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: #6F6C6C;
+  }
+  .name_email ,.phone_course{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  .input_field_section{
+    padding: 0 4rem;
+    margin-top: 2rem;
+  }
+  .input-container {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    background: #D9EBF5;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-right: 2rem;
+  }
+  .icon {
+    padding: 0.6rem;
+    color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+  .input-field {
+    width: 100%;
+    padding: 0.6rem;
+    outline: none;
+    background-color: transparent;
+    border: none;
+  }
+  .icon_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #000000;
+    border-right: 3px solid black;
+    text-align: center;
+  }
+  .news_apply_section{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem 0 0 ;
+    margin-top: 2rem;
+  }
+  .already_registred_text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #F41111;
+  }
+  .subs_btn{
+    background-color : #14397D;
+    border-radius:10px;
+    min-width:150px;
+    padding: 0.5rem;
+  }
